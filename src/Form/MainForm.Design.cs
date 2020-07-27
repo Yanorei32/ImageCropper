@@ -62,6 +62,7 @@ partial class MainForm : Form {
 		this.ClientSize			= new Size(textBoxW + (margin * 1), curH);
 		this.MinimumSize		= this.Size;
 		this.MaximumSize		= this.Size;
+		this.TopMost			= true;
 
 		this.Controls.Add(this.resolution);
 		this.Controls.Add(this.set);
