@@ -56,6 +56,7 @@ partial class MainForm : Form {
 		curH += this.crop.Size.Height;
 		curH += 22;
 
+
 		this.statusStrip.Items.Add(this.statusLabel);
 		this.Controls.Add(statusStrip);
 		
@@ -63,6 +64,7 @@ partial class MainForm : Form {
 		this.MinimumSize		= this.Size;
 		this.MaximumSize		= this.Size;
 		this.TopMost			= true;
+		this.Text				= "ImageCropper";
 
 		this.Controls.Add(this.resolution);
 		this.Controls.Add(this.set);
